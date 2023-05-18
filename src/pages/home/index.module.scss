@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+.home {
+  margin-top: 0%;
+
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -40%;
+    position: relative;
+  }
+
+  .title {
+    position: relative;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-size: calc(70px);
+    margin-top: 15%;
+  }
+
+  .titledescription {
+    position: relative;
+    color: white;
+    font-family: "Sniglet", cursive;
+    margin-top: -20px;
+  }
+
+  .titledescriptiontwo {
+    position: relative;
+    color: white;
+    font-family: "Sniglet", cursive;
+    margin-top: -20px;
+  }
+
+  .fakebtn {
+    position: relative;
+    color: black;
+    border: 2px solid black;
+    background-color: #d1bc94;
+    font-size: 120%;
+    text-decoration: none;
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 45%;
+  }
+}

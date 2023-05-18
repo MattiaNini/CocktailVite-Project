@@ -1,0 +1,21 @@
+.categorywrapper {
+  display: flex;
+  flex-direction: column;
+
+  .drinkvideo {
+    margin-top: 3%;
+    width: 100vh;
+    align-self: center;
+
+    border-radius: 20px;
+  }
+
+  .excellences {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding-left: 40px;
+    color: whitesmoke;
+    border: 1px solid black;
+    text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../styles/variables";
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.navbar {
+  display: flex;
+  align-content: center;
+  padding-top: 60px;
+
+  .title {
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-left: 37%;
+    text-decoration: underline;
+    font-family: "Permanent Marker", cursive;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+}
